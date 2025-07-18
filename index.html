@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomites - Connection in Robotics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pitch-deck">
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <!-- Slide 1: Title - Connection in Robotics -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content title-slide">
+                <div class="hero-content">
+                    <div class="connection-visual">
+                        <div class="connection-node"></div>
+                        <div class="connection-line"></div>
+                        <div class="connection-node"></div>
+                        <div class="connection-line"></div>
+                        <div class="connection-node"></div>
+                    </div>
+                    <h1 class="company-name">Atomites</h1>
+                    <h2 class="tagline">Connection in Robotics</h2>
+                    <p class="subtitle">Adaptive Micro-Swarm Robots for Industrial Inspection</p>
+                    <div class="connection-statement">
+                        <p>Where robots connect • Data connects • Industries connect</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Problem - When Connection Fails -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <h2 class="slide-title">When Connection Fails</h2>
+                <div class="problem-hero">
+                    <div class="problem-visual">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1752847261/pplx_project_search_images/ab4c368d3f64f6b6a99e1c890f98fd4a6feb0ffc.jpg" alt="Industrial Pipeline Inspection Challenge" class="problem-image">
+                    </div>
+                    <div class="problem-data">
+                        <div class="cost-breakdown">
+                            <h3>Industrial Downtime Costs</h3>
+                            <div class="cost-chart">
+                                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/4fd9c7139777d5da1b57af302b36ade0/5d2d15b9-41bc-4b49-a759-73076de4e061/2bfbcf7a.png" alt="Downtime Cost Analysis" class="cost-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">$1.5T</span>
+                        <span class="stat-label">Annual Fortune 500 losses from unplanned downtime</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">25 days</span>
+                        <span class="stat-label">Average monthly downtime across industries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">$129M</span>
+                        <span class="stat-label">Average annual cost per industrial facility</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Market - The Connected Future -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <h2 class="slide-title">The Connected Future</h2>
+                <div class="market-content">
+                    <div class="market-chart-container">
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/4fd9c7139777d5da1b57af302b36ade0/5d4eb90e-990b-4d4f-97d2-2e84dd137255/7b1e2dae.png" alt="Market Growth Projections" class="market-chart">
+                    </div>
+                    <div class="market-insights">
+                        <div class="insight-card">
+                            <h3>Market Growth</h3>
+                            <div class="growth-stats">
+                                <div class="growth-item">
+                                    <span class="growth-value">$18.9B</span>
+                                    <span class="growth-label">Market size by 2031</span>
+                                </div>
+                                <div class="growth-item">
+                                    <span class="growth-value">27.8%</span>
+                                    <span class="growth-label">Projected CAGR</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="research-foundation">
+                            <h3>Research Foundation</h3>
+                            <div class="research-citations">
+                                <div class="citation">
+                                    <span class="citation-source">Nature 2022</span>
+                                    <span class="citation-text">Self-replicating hierarchical modular robotic swarms</span>
+                                </div>
+                                <div class="citation">
+                                    <span class="citation-source">MIT CSAIL</span>
+                                    <span class="citation-text">M-Blocks 2.0 autonomous self-assembly</span>
+                                </div>
+                                <div class="citation">
+                                    <span class="citation-source">Cornell/Max Planck</span>
+                                    <span class="citation-text">Programmable Self-Organization of Heterogeneous Microrobot Collectives</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Solution - Connection Redefined -->
+        <div class="slide" id="slide4">
+            <div class="slide-content">
+                <h2 class="slide-title">Connection Redefined</h2>
+                <div class="solution-overview">
+                    <div class="connection-principles">
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <h3>Multi-Modal Connection</h3>
+                            <p>Magnetic, mechanical, and electromagnetic connections on any surface</p>
+                        </div>
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M12 1v6m0 6v6"/>
+                                    <path d="M21 12h-6m-6 0H3"/>
+                                </svg>
+                            </div>
+                            <h3>Adaptive Architecture</h3>
+                            <p>Self-organizing swarm intelligence for dynamic environments</p>
+                        </div>
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                    <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"/>
+                                </svg>
+                            </div>
+                            <h3>Modular Scale</h3>
+                            <p>Eraser-sized modules that combine into complex inspection systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Technology - The Science of Connection -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <h2 class="slide-title">The Science of Connection</h2>
+                <div class="technology-grid">
+                    <div class="tech-performance">
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/4fd9c7139777d5da1b57af302b36ade0/8187e32f-0775-44a7-bd0f-976eaaf33831/cccabad5.png" alt="Robot Connection Technology Performance" class="performance-chart">
+                    </div>
+                    <div class="tech-specifications">
+                        <div class="spec-section">
+                            <h3>Connection Technologies</h3>
+                            <div class="spec-grid">
+                                <div class="spec-item">
+                                    <span class="spec-name">Magnetic Connectors</span>
+                                    <span class="spec-rating">9.5/10</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-name">Mechanical Latches</span>
+                                    <span class="spec-rating">8.0/10</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-name">Electropermanent Magnets</span>
+                                    <span class="spec-rating">7.5/10</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-name">Vacuum Suction</span>
+                                    <span class="spec-rating">6.5/10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="performance-metrics">
+                            <h3>Performance Metrics</h3>
+                            <div class="metric-list">
+                                <div class="metric-item">Connection Speed</div>
+                                <div class="metric-item">Reliability</div>
+                                <div class="metric-item">Power Efficiency</div>
+                                <div class="metric-item">Miniaturization</div>
+                                <div class="metric-item">3D Connectivity</div>
+                                <div class="metric-item">Environmental Robustness</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Applications - Connecting Industries -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <h2 class="slide-title">Connecting Industries</h2>
+                <div class="applications-grid">
+                    <div class="app-card primary">
+                        <div class="app-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10,9 9,9 8,9"/>
+                            </svg>
+                        </div>
+                        <h3>Oil & Gas Pipeline Inspection</h3>
+                        <p>Continuous monitoring of pipeline integrity without shutdown</p>
+                        <div class="app-stats">
+                            <span class="stat">$500K-$2M</span>
+                            <span class="stat-label">hourly downtime savings</span>
+                        </div>
+                    </div>
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M1.05 12H7"/>
+                                <path d="M17.01 12h5.95"/>
+                            </svg>
+                        </div>
+                        <h3>Nuclear Power Plant Monitoring</h3>
+                        <p>Reactor vessel inspection in high-radiation environments</p>
+                        <div class="app-stats">
+                            <span class="stat">$850K</span>
+                            <span class="stat-label">hourly downtime cost</span>
+                        </div>
+                    </div>
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="7.5,12.5 10.5,15.5 16.5,9.5"/>
+                            </svg>
+                        </div>
+                        <h3>Aerospace Engine Maintenance</h3>
+                        <p>Internal engine inspection without disassembly</p>
+                        <div class="app-stats">
+                            <span class="stat">8-10 hours</span>
+                            <span class="stat-label">teardown time eliminated</span>
+                        </div>
+                    </div>
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Manufacturing Quality Control</h3>
+                        <p>Real-time monitoring of production equipment</p>
+                        <div class="app-stats">
+                            <span class="stat">$532K</span>
+                            <span class="stat-label">hourly downtime cost</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Competitive Advantage - Superior Connections -->
+        <div class="slide" id="slide7">
+            <div class="slide-content">
+                <h2 class="slide-title">Superior Connections</h2>
+                <div class="advantage-comparison">
+                    <div class="comparison-table">
+                        <div class="comparison-header">
+                            <div class="header-item">Capability</div>
+                            <div class="header-item">Traditional Robots</div>
+                            <div class="header-item">Atomites</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="row-label">Access to confined spaces</div>
+                            <div class="row-value limited">Limited</div>
+                            <div class="row-value excellent">Excellent</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="row-label">Shape adaptability</div>
+                            <div class="row-value limited">Fixed form</div>
+                            <div class="row-value excellent">Dynamic</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="row-label">Swarm redundancy</div>
+                            <div class="row-value limited">Single point failure</div>
+                            <div class="row-value excellent">Fault tolerant</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="row-label">Operational continuity</div>
+                            <div class="row-value limited">Requires shutdown</div>
+                            <div class="row-value excellent">In-situ operation</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="row-label">Parallel processing</div>
+                            <div class="row-value limited">Sequential</div>
+                            <div class="row-value excellent">Simultaneous</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Business Model - Connecting Value -->
+        <div class="slide" id="slide8">
+            <div class="slide-content">
+                <h2 class="slide-title">Connecting Value</h2>
+                <div class="business-model">
+                    <div class="revenue-streams">
+                        <div class="stream-card">
+                            <div class="stream-header">
+                                <h3>Hardware Sales</h3>
+                                <span class="stream-percentage">60%</span>
+                            </div>
+                            <p>Atomite swarms (50-200 units per deployment)</p>
+                            <div class="pricing-info">
+                                <span class="price">$150-$200</span>
+                                <span class="price-unit">per unit</span>
+                            </div>
+                        </div>
+                        <div class="stream-card">
+                            <div class="stream-header">
+                                <h3>SaaS Platform</h3>
+                                <span class="stream-percentage">25%</span>
+                            </div>
+                            <p>Fleet management and analytics software</p>
+                            <div class="pricing-info">
+                                <span class="price">15-25%</span>
+                                <span class="price-unit">of hardware cost annually</span>
+                            </div>
+                        </div>
+                        <div class="stream-card">
+                            <div class="stream-header">
+                                <h3>Service & Support</h3>
+                                <span class="stream-percentage">15%</span>
+                            </div>
+                            <p>Maintenance and professional services</p>
+                            <div class="pricing-info">
+                                <span class="price">10-20%</span>
+                                <span class="price-unit">of hardware revenue</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-economics">
+                        <h3>Unit Economics</h3>
+                        <div class="economics-grid">
+                            <div class="econ-metric">
+                                <span class="metric-value">55%</span>
+                                <span class="metric-label">Hardware Gross Margin</span>
+                            </div>
+                            <div class="econ-metric">
+                                <span class="metric-value">85%</span>
+                                <span class="metric-label">SaaS Gross Margin</span>
+                            </div>
+                            <div class="econ-metric">
+                                <span class="metric-value">18 months</span>
+                                <span class="metric-label">Customer Payback</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Financial Projections - Connected Growth -->
+        <div class="slide" id="slide9">
+            <div class="slide-content">
+                <h2 class="slide-title">Connected Growth</h2>
+                <div class="projections-layout">
+                    <div class="projection-highlights">
+                        <div class="projection-card">
+                            <span class="proj-year">Year 1</span>
+                            <span class="proj-revenue">$500K</span>
+                            <span class="proj-customers">5 customers</span>
+                            <span class="proj-description">Pilot deployments</span>
+                        </div>
+                        <div class="projection-card">
+                            <span class="proj-year">Year 3</span>
+                            <span class="proj-revenue">$8M</span>
+                            <span class="proj-customers">40 customers</span>
+                            <span class="proj-description">Market penetration</span>
+                        </div>
+                        <div class="projection-card">
+                            <span class="proj-year">Year 5</span>
+                            <span class="proj-revenue">$45M</span>
+                            <span class="proj-customers">200 customers</span>
+                            <span class="proj-description">Scale operation</span>
+                        </div>
+                    </div>
+                    <div class="growth-drivers">
+                        <h3>Growth Drivers</h3>
+                        <div class="driver-list">
+                            <div class="driver-item">
+                                <span class="driver-name">Market Expansion</span>
+                                <span class="driver-impact">High</span>
+                            </div>
+                            <div class="driver-item">
+                                <span class="driver-name">Technology Advancement</span>
+                                <span class="driver-impact">High</span>
+                            </div>
+                            <div class="driver-item">
+                                <span class="driver-name">Customer Retention</span>
+                                <span class="driver-impact">Medium</span>
+                            </div>
+                            <div class="driver-item">
+                                <span class="driver-name">SaaS Recurring Revenue</span>
+                                <span class="driver-impact">High</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Team & Roadmap - Connecting Vision to Reality -->
+        <div class="slide" id="slide10">
+            <div class="slide-content">
+                <h2 class="slide-title">Connecting Vision to Reality</h2>
+                <div class="roadmap-timeline">
+                    <div class="timeline-track">
+                        <div class="milestone current">
+                            <div class="milestone-marker">Q1 2025</div>
+                            <div class="milestone-content">
+                                <h3>Prototype Development</h3>
+                                <p>TRL 3-4: Basic modular connectivity demonstration</p>
+                            </div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestone-marker">Q4 2025</div>
+                            <div class="milestone-content">
+                                <h3>Integrated System</h3>
+                                <p>TRL 6: Complete swarm functionality in lab environment</p>
+                            </div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestone-marker">Q2 2026</div>
+                            <div class="milestone-content">
+                                <h3>Field Trials</h3>
+                                <p>TRL 7-8: Real-world testing with industry partners</p>
+                            </div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestone-marker">Q1 2027</div>
+                            <div class="milestone-content">
+                                <h3>Commercial Launch</h3>
+                                <p>TRL 9: First commercial deployments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-expertise">
+                    <h3>Leadership Team</h3>
+                    <div class="expertise-grid">
+                        <div class="expertise-card">
+                            <h4>Robotics Engineering</h4>
+                            <p>15+ years modular robotics experience</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h4>AI & Swarm Intelligence</h4>
+                            <p>PhD-level expertise in collective behavior</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h4>Industrial Markets</h4>
+                            <p>20+ years NDT and inspection experience</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h4>Business Development</h4>
+                            <p>Proven track record in B2B robotics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Investment - Connect with the Future -->
+        <div class="slide" id="slide11">
+            <div class="slide-content">
+                <h2 class="slide-title">Connect with the Future</h2>
+                <div class="investment-overview">
+                    <div class="funding-ask">
+                        <div class="ask-amount">$15M</div>
+                        <div class="ask-stage">Series A</div>
+                        <div class="ask-subtitle">To accelerate development and market entry</div>
+                    </div>
+                    <div class="use-of-funds">
+                        <h3>Use of Funds</h3>
+                        <div class="funds-breakdown">
+                            <div class="fund-item">
+                                <div class="fund-category">R&D</div>
+                                <div class="fund-bar">
+                                    <div class="fund-fill" style="width: 50%"></div>
+                                </div>
+                                <div class="fund-amount">$7.5M</div>
+                            </div>
+                            <div class="fund-item">
+                                <div class="fund-category">Team Expansion</div>
+                                <div class="fund-bar">
+                                    <div class="fund-fill" style="width: 25%"></div>
+                                </div>
+                                <div class="fund-amount">$3.75M</div>
+                            </div>
+                            <div class="fund-item">
+                                <div class="fund-category">Pilot Programs</div>
+                                <div class="fund-bar">
+                                    <div class="fund-fill" style="width: 15%"></div>
+                                </div>
+                                <div class="fund-amount">$2.25M</div>
+                            </div>
+                            <div class="fund-item">
+                                <div class="fund-category">Manufacturing</div>
+                                <div class="fund-bar">
+                                    <div class="fund-fill" style="width: 10%"></div>
+                                </div>
+                                <div class="fund-amount">$1.5M</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="investment-highlights">
+                    <div class="highlight-card">
+                        <h4>Market Opportunity</h4>
+                        <p>$18.9B market by 2031</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Technology Advantage</h4>
+                        <p>First-of-its-kind swarm connectivity</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Revenue Potential</h4>
+                        <p>$45M by Year 5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Closing - The Age of Connection -->
+        <div class="slide" id="slide12">
+            <div class="slide-content closing-slide">
+                <div class="closing-content">
+                    <h2 class="slide-title">The Age of Connection</h2>
+                    <div class="connection-vision">
+                        <div class="vision-statement">
+                            <h3>Where Connection Creates Value</h3>
+                            <p>Industrial inspection transformed through intelligent swarm robotics</p>
+                        </div>
+                        <div class="connection-network">
+                            <div class="network-node active"></div>
+                            <div class="network-connection"></div>
+                            <div class="network-node"></div>
+                            <div class="network-connection"></div>
+                            <div class="network-node"></div>
+                            <div class="network-connection"></div>
+                            <div class="network-node"></div>
+                        </div>
+                    </div>
+                    <div class="contact-section">
+                        <div class="contact-info">
+                            <h3>Ready to Connect?</h3>
+                            <p>join@atomites.com • www.atomites.com</p>
+                        </div>
+                        <button class="btn btn--primary cta-button">Schedule Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn" aria-label="Previous slide">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </button>
+            <span class="slide-counter" id="slideCounter">1 / 12</span>
+            <button class="nav-btn" id="nextBtn" aria-label="Next slide">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

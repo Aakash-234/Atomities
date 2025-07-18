@@ -1,0 +1,261 @@
+{
+  "company_info": {
+    "name": "Atomites",
+    "tagline": "Adaptive Micro-Swarm Robots for Industrial Inspection",
+    "mission": "Revolutionizing industrial inspection through shape-adaptive swarm robotics",
+    "problem": "Inaccessible, hazardous inspection tasks causing prolonged downtime and safety risks"
+  },
+  "market_data": {
+    "total_addressable_market": {
+      "2024": 18.23,
+      "2025": 20.34,
+      "2026": 22.73,
+      "2027": 25.41,
+      "2028": 28.45,
+      "2029": 31.89,
+      "2030": 35.79,
+      "2031": 40.21,
+      "2032": 45.24
+    },
+    "ndt_market": {
+      "2024": 15.43,
+      "2025": 16.99,
+      "2026": 18.7,
+      "2027": 20.59,
+      "2028": 22.67,
+      "2029": 24.96,
+      "2030": 27.48,
+      "2031": 30.26,
+      "2032": 33.32,
+      "cagr": "10.1%"
+    },
+    "inspection_robots_market": {
+      "2024": 2.8,
+      "2025": 3.36,
+      "2026": 4.02,
+      "2027": 4.82,
+      "2028": 5.78,
+      "2029": 6.93,
+      "2030": 8.3,
+      "2031": 9.95,
+      "2032": 11.93,
+      "cagr": "19.86%"
+    },
+    "industry_breakdown": {
+      "Oil & Gas": 34,
+      "Power Generation": 20,
+      "Aerospace": 15,
+      "Manufacturing": 18,
+      "Infrastructure": 13
+    }
+  },
+  "problem_statement": {
+    "key_challenges": [
+      "Inaccessible inspection areas requiring extensive disassembly",
+      "Hazardous environments with toxic gases and radiation",
+      "Prolonged downtime costing millions per day",
+      "Safety risks with 43% of plant incidents from mechanical failure"
+    ],
+    "cost_impacts": {
+      "Nuclear Plant Outage": "$500K - $1.2M per day",
+      "Aircraft Engine Teardown": "8-10 hours downtime",
+      "Pipeline Inspection": "$102-$163 per foot",
+      "Industrial Outage": "$2M per 4-hour outage",
+      "Safety Incidents": "43% from mechanical failures"
+    }
+  },
+  "solution": {
+    "product_name": "Atomites",
+    "description": "Eraser-sized modular robots that move and connect autonomously",
+    "key_features": [
+      "Shape-adaptive swarm robots",
+      "Omnidirectional movement without wheels",
+      "Magnetic connectivity for 3D structures",
+      "Built-in computing, sensors, and propulsion",
+      "Swarm intelligence for resilient inspection"
+    ],
+    "technical_specs": {
+      "size": "Eraser-sized modules",
+      "connectivity": "Magnetic on any face",
+      "locomotion": "Crawl, roll, fly capability",
+      "sensors": "Visual, thermal, ultrasonic",
+      "communication": "Swarm intelligence protocols"
+    }
+  },
+  "use_cases": [
+    {
+      "industry": "Oil & Gas",
+      "application": "Pipeline and tank interior inspection",
+      "benefit": "Detect corrosion/leaks without shutdown"
+    },
+    {
+      "industry": "Nuclear Power",
+      "application": "Reactor vessel and steam generator inspection",
+      "benefit": "Reduce outage length and radiation exposure"
+    },
+    {
+      "industry": "Aerospace",
+      "application": "Aircraft engine internal inspection",
+      "benefit": "Avoid teardown saving 8-10 hours"
+    },
+    {
+      "industry": "Manufacturing",
+      "application": "Boiler and turbine monitoring",
+      "benefit": "24/7 surveillance in hard-to-reach areas"
+    }
+  ],
+  "competitive_advantages": [
+    {
+      "advantage": "Ultra-miniaturization",
+      "description": "Access tight spaces impossible for large robots"
+    },
+    {
+      "advantage": "Shape-shifting capability",
+      "description": "Adapt to various geometries and obstacles"
+    },
+    {
+      "advantage": "Swarm resilience",
+      "description": "Continue operation even if individual units fail"
+    },
+    {
+      "advantage": "In-situ inspection",
+      "description": "Operate without equipment shutdown"
+    },
+    {
+      "advantage": "Parallel operation",
+      "description": "Multiple units inspect simultaneously"
+    }
+  ],
+  "business_model": {
+    "revenue_streams": [
+      {
+        "stream": "Hardware Sales",
+        "description": "Atomite swarms (50-200 units per kit)",
+        "pricing": "$150-$200 per unit"
+      },
+      {
+        "stream": "SaaS Platform",
+        "description": "Fleet management and analytics software",
+        "pricing": "10-20% of hardware cost annually"
+      },
+      {
+        "stream": "Service Contracts",
+        "description": "Maintenance and support agreements",
+        "pricing": "10-20% of hardware revenue"
+      },
+      {
+        "stream": "Data Licensing",
+        "description": "Inspection data and AI model training",
+        "pricing": "Variable based on usage"
+      }
+    ],
+    "unit_economics": {
+      "cost_per_unit": "$40-$60",
+      "selling_price": "$150-$200",
+      "gross_margin": "50%+",
+      "saas_margin": "80%+",
+      "break_even": "2-3 years"
+    }
+  },
+  "financial_projections": {
+    "year_1": {
+      "revenue": 0.5,
+      "units_sold": 10,
+      "customers": 5
+    },
+    "year_2": {
+      "revenue": 2.5,
+      "units_sold": 50,
+      "customers": 15
+    },
+    "year_3": {
+      "revenue": 8.0,
+      "units_sold": 150,
+      "customers": 40
+    },
+    "year_4": {
+      "revenue": 20.0,
+      "units_sold": 400,
+      "customers": 100
+    },
+    "year_5": {
+      "revenue": 45.0,
+      "units_sold": 800,
+      "customers": 200
+    }
+  },
+  "technology_readiness": {
+    "current_trl": "3-4",
+    "milestones": [
+      {
+        "date": "Late 2025",
+        "milestone": "Complete integrated prototype (TRL 6)",
+        "description": "Functional prototype demonstration"
+      },
+      {
+        "date": "2026",
+        "milestone": "Field trials with partners (TRL 7-8)",
+        "description": "Real-world testing and validation"
+      },
+      {
+        "date": "2027",
+        "milestone": "Commercial readiness (TRL 9)",
+        "description": "First-generation product launch"
+      }
+    ]
+  },
+  "research_foundation": [
+    {
+      "area": "Modular Self-Assembly",
+      "description": "MIT M-Blocks demonstrate 20,000 RPM flywheel locomotion",
+      "source": "MIT CSAIL"
+    },
+    {
+      "area": "Swarm Intelligence",
+      "description": "Decentralized control for large-scale coordination",
+      "source": "Multiple research institutions"
+    },
+    {
+      "area": "Adaptive Locomotion",
+      "description": "Multi-modal movement (crawl, roll, fly)",
+      "source": "Nature-inspired robotics research"
+    },
+    {
+      "area": "Hierarchical Assembly",
+      "description": "Self-replicating modular systems",
+      "source": "MIT CSAIL & Harvard"
+    }
+  ],
+  "team": [
+    {
+      "role": "CEO",
+      "name": "To be filled",
+      "background": "Robotics and business development"
+    },
+    {
+      "role": "CTO",
+      "name": "To be filled",
+      "background": "Swarm robotics and AI"
+    },
+    {
+      "role": "VP Engineering",
+      "name": "To be filled",
+      "background": "Modular robotics and manufacturing"
+    },
+    {
+      "role": "VP Sales",
+      "name": "To be filled",
+      "background": "Industrial automation and NDT"
+    }
+  ],
+  "funding_ask": {
+    "amount": "$15M",
+    "stage": "Series A",
+    "use_of_funds": {
+      "R&D": 50,
+      "Hiring": 25,
+      "Pilot Programs": 15,
+      "Manufacturing": 10
+    }
+  }
+}
